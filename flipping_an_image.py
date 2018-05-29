@@ -21,5 +21,6 @@
 # 1 <= A.length = A[0].length <= 20
 # 0 <= A[i][j] <= 1
 
+
 def flip_and_invert_image(a):
     return map(lambda x: [1 - n for n in x][::-1], a)
